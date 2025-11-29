@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #060627;
+    --secondary-color: #002e2d;
+    --accent-color: #531d00;
+    --bg-light: #fefcda;
+    --card-bg: #1f0025;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-light);
+}
+
+.navbar {
+    background-color: var(--card-bg) !important;
+    box-shadow: 0 4px 6px -1px rgba(6, 6, 6, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #ffe1a0 !important;
+}
+
+.nav-link {
+    color: #fff!important;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8ff37 !important;
+}
+
+h2, h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    background-color: #ffe1a0;
+}
+
+.btn {
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary, .btn-success, .btn-warning {
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: #4affae;
+    color: var(--primary-color) !important;
+}
+
+.btn-success {
+    background-color: var(--accent-color);
+}
+
+.btn-success:hover {
+    background-color: #021e0f;
+}
+
+.btn-warning {
+    background-color: #ffe1a0;
+    color: var(--primary-color) !important;
+}
+
+.btn-warning:hover {
+    background-color: #31d1f5;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Optional: Customizing forms for a softer look */
+.form-control {
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(147, 183, 190, 0.25);
+    border-color: var(--secondary-color);
+}
+
+
+
